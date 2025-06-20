@@ -394,195 +394,78 @@
       </div>
     </section><!-- End Resume Section -->
 
-    <!-- ======= Projects Section ======= -->
-    <section id="projects" class="services">
-      <div class="container">
+          <!-- ======= Projects Section ======= -->
+<section id="projects" class="services">
+  <div class="container">
+    <div class="section-title">
+      <h2>Projects</h2>
+      <p>My Projects</p>
+    </div>
 
-        <div class="section-title">
-          <h2>Projects</h2>
-          <p>My Projects</p>
+    <!-- Tabs -->
+    <ul class="nav nav-tabs" id="projectTabs">
+      <li class="nav-item">
+        <button class="nav-link active" data-tab="ml">Machine Learning</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-tab="dev">Software Development</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-tab="work">Work Experience</button>
+      </li>
+    </ul>
+
+    <!-- Tab Contents -->
+    <div class="tab-content mt-3">
+
+      <!-- Machine Learning Projects -->
+      <div class="tab-pane active show" id="ml">
+        <div class="row">
+          <!-- Project Card Example -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-expand-horizontal"></i></div>
+              <h4>Intelligent Tutoring System</h4>
+              <p>Developed a DTW-based Intelligent Tutoring System to assist with learning Mongolian script.</p>
+              <a href="https://github.com/..." class="btn">Git Repo</a>
+            </div>
+          </div>
+          <!-- Add more ML projects here -->
         </div>
+      </div>
 
-        <!-- Tabs -->
-        <ul class="nav nav-tabs" id="projectsTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="ml-tab" data-bs-toggle="tab" data-bs-target="#ml" type="button" role="tab">Machine Learning</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="dev-tab" data-bs-toggle="tab" data-bs-target="#dev" type="button" role="tab">Software Development</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="work-tab" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab">Work Experience</button>
-          </li>
-        </ul>
-
-        <!-- Tab Content -->
-        <div class="tab-content mt-3" id="projectsTabContent">
-
-          <!-- ML Projects -->
-          <div class="tab-pane fade show active" id="ml" role="tabpanel" aria-labelledby="ml-tab">
-            <div class="row">
-              <!-- Adding ONLY ML and DL -related project cards here -->
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" >
-                <div class="icon-box" style="border: 2px solid black;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4>VitaFin: A Personal Health and Financial Data Visualization Dashboard (2025)</h4>
-                  <p>Created an interactive data visualization dashboard using Flask, Vue.js and Chart.js to track and analyze personal health and financial trends, enabling insightful comparisons against historical benchmarks.</p>
-                  <a href="https://github.com/ApurvaMandalika9/DataVizProject-VitaFin" class="btn" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#0563bb; text-decoration:none; border-radius:5px; margin-top: 20px;">Git Repo</a>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" >
-                <div class="icon-box" style="border: 2px solid black;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4>Hong Kong Monthly Temperature Visualization Dashboard from 1997 to 2017 (2025)</h4>
-                  <p>Created a Matrix View dashboard to visualize the Monthly Temperature of Hong Kong, where the color of each matrix cell encodes the temperature and within each month, the daily trends of max and min temperatues are shown.</p>
-                  <a href="https://github.com/ApurvaMandalika9/Hong-Kong-Monthly-Temperature-Visualization" class="btn" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#0563bb; text-decoration:none; border-radius:5px; margin-top: 20px;">Git Repo</a>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" >
-                <div class="icon-box" style="border: 2px solid black;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4>Intelligent Tutoring System for learning Mangolian script (2024)</h4>
-                  <p>Developed an Intelligent Tutoring System (ITS) with a DTW-based personalized feedback mechanism, providing both textual and visual feedback to enhance user learning outcomes. Observed an improvement in 70% of users.</p>
-                  <a href="https://github.com/ApurvaMandalika9/FeedbackMechanismForLearningComplexLanguage" class="btn" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#0563bb; text-decoration:none; border-radius:5px; margin-top: 20px;">Git Repo</a>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                <div class="icon-box" style="border: 2px solid black;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4>Deep Learning Model for Image Classification (2024)</h4>
-                  <p>Designed a hybrid deep learning
-                    model combining DenseNet and ResNet architectures for CIFAR-10 image classification. Achieved an accuracy
-                    of 92.5%.</p>
-                    <a href="https://github.com/ApurvaMandalika9/ImageClassificationUsingDeepLearningModel" class="btn" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#0563bb; text-decoration:none; border-radius:5px; margin-top: 20px;">Git Repo</a>
-                </div>
-              </div>
-              
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                <div class="icon-box" style="border: 2px solid black;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4>Development and Comparison of ML and DL Models for Image Classification (2024)</h4>
-                  <p>Developed Random Forest (44.97% accuracy), CNN (81.1%), and ResNet (83.6%) models to evaluate
-                    strengths and limitations on the CIFAR-10 dataset.</p>
-                  <a href="https://github.com/ApurvaMandalika9/ImageRecognition_Using_ML_And_DL_Models" class="btn" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#0563bb; text-decoration:none; border-radius:5px; margin-top: 20px;">Git Repo</a>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                <div class="icon-box" style="border: 2px solid black;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4>Multimodal Classification Model (2024)</h4>
-                  <p>Implemented a fusion model combining a CNN for image data and an ANN for audio data to classify the multimodal MNIST dataset and achieved a validation
-                    accuracy of 98.92%.</p>
-                  <a href="https://github.com/ApurvaMandalika9/MultiModalClassificationModel" class="btn" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#0563bb; text-decoration:none; border-radius:5px; margin-top: 20px;">Git Repo</a>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                <div class="icon-box" style="border: 2px solid black; margin-top: 5px;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4>GPT for Text Generation (2024)</h4>
-                  <p>Implemented a decoder-only Transformer model on the SCAN dataset using PyTorch. The generation model will take a command sentence as input and output the corresponding action sequence.</p>
-                  <a href="https://github.com/ApurvaMandalika9/GPT-for-Text-Generation" class="btn" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#0563bb; text-decoration:none; border-radius:5px; margin-top: 20px;">Git Repo</a>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                <div class="icon-box" style="border: 2px solid black; margin-top: 5px;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4>Loan Eligibility Prediction Using Decision Tree and XGBoost (2024)</h4>
-                  <p>Developed a predictive model to determine whether a loan should be approved based on applicant financial and demographic data.</p>
-                  <a href="https://github.com/ApurvaMandalika9/Tree-based-Models-for-Loan-Eligibility-Prediction" class="btn" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#0563bb; text-decoration:none; border-radius:5px; margin-top: 20px;">Git Repo</a>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                <div class="icon-box" style="border: 2px solid black; margin-top: 5px;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4>University Admission Prediction Using SVM (2024)</h4>
-                  <p>Developed a machine learning model using Support Vector Machine (SVM) to predict a student's chances of university admission based on academic and profile-related factors.</p>
-                  <a href="https://github.com/ApurvaMandalika9/SVM-For-Chance-Of-University-Admission" class="btn" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#0563bb; text-decoration:none; border-radius:5px; margin-top: 20px;">Git Repo</a>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                <div class="icon-box" style="border: 2px solid black; margin-top: 5px;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4> PCA vs AutoEncoder (2024)</h4>
-                  <p> Applied the PCA and the AutoEncoder (AE) to a collection of handwritten digit images from the USPS dataset </p>
-                  <a href="https://github.com/ApurvaMandalika9/PCA-vs-Autoencoder" class="btn" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#0563bb; text-decoration:none; border-radius:5px; margin-top: 20px;">Git Repo</a>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-                <div class="icon-box" style="border: 2px solid black; margin-top: 5px;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                    <h4>[Publication] Matrix Factorization within DBMS (2018 - 2019)</h4>
-                    <p>'Approximate query processing based on Matrix Factorization within DBMS', ICCCET - 19.</p>
-                  </div>
-                </div>
-
+      <!-- Software Development Projects -->
+      <div class="tab-pane" id="dev">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-expand-horizontal"></i></div>
+              <h4>Sealants Outreach App</h4>
+              <p>Digitized data entry workflows for TAMU Dentistry’s outreach program.</p>
+              <a href="https://github.com/..." class="btn">Git Repo</a>
             </div>
           </div>
+          <!-- Add more Dev projects here -->
+        </div>
+      </div>
 
-          <!-- Software Dev Projects -->
-          <div class="tab-pane fade" id="dev" role="tabpanel" aria-labelledby="dev-tab">
-            <div class="row">
-          
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                <div class="icon-box" style="border: 2px solid black; margin-top: 5px;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4>Data Management Application for Sealants Outreach Program - TAMU Dentistry (2023)</h4>
-                  <p>Developed a data management application for the Texas A&M School of Dentistry, streamlining data collection and data entry processes. Eliminated 100% of paperwork by digitizing workflows, improving efficiency and
-                    accuracy. Featured in <a href="https://insights.dentistry.tamu.edu/going-digital/">Going Digital</a> – the dentistry department's article about our work.</p>
-                  <a href="https://github.com/ApurvaMandalika9/DataManagementApplicationForDentistry" class="btn" style="display:inline-block; padding:10px 20px; font-size:14px; color:#fff; background-color:#0563bb; text-decoration:none; border-radius:5px; margin-top: 20px;">Git Repo</a>
-                </div>
-              </div>
-          
+      <!-- Work Experience Projects -->
+      <div class="tab-pane" id="work">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-expand-horizontal"></i></div>
+              <h4>AR-Based Support Tool</h4>
+              <p>Built AR-based visual support using Agora and ARKit to guide customers during troubleshooting.</p>
             </div>
           </div>
+          <!-- Add more Work projects here -->
+        </div>
+      </div>
 
-          <!-- Work Experience Projects -->
-          <div class="tab-pane fade" id="work" role="tabpanel" aria-labelledby="work-tab">
-            <div class="row">
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-                <div class="icon-box" style="border: 2px solid black; margin-top: 5px;">
-                 <!-- <div class="icon"><i class="bx bx-expand-horizontal"></i></div> -->
-                  <h4>Augmented Reality based Video Call for Customer Support : Bot</h4>
-                  <p>Developed Customer side application with automated Augmented Reality based video support for bot-like visual cues using Agora and Apple's ARKit, thus avoiding the need of a live agent for resolution.</p>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-                <div class="icon-box" style="border: 2px solid black; margin-top: 5px;">
-                  <div class="icon"><i class="bx bx-expand-horizontal"></i></div>
-                  <h4>Augmented Reality based Video Call for Customer Support : Live Agent</h4>
-                  <p>Developed Customer side and Agent side iOS apps , a web-based Agent application, and a Call Scheduling Server to connect customers with available agents. An AR-based video calling (using Agora) application with interactive touch gesture rendering.</p>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-                <div class="icon-box" style="border: 2px solid black; margin-top: 5px;">
-                  <div class="icon"><i class="bx bx-expand-horizontal"></i></div>
-                  <h4>Prediction Model</h4>
-                  <p>Built a Time On Page (TOP) Prediction model for a client at [24]7.ai, increasing propensity to chat by 12%</p>
-                </div>
-              </div>
-
-              <div class="col-lg-2 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-                <div class="icon-box" style="border: 2px solid black; margin-top: 5px;">
-                  <div class="icon"><i class="bx bx-expand-horizontal"></i></div>
-                  <h4>Predictive Targeting Model</h4>
-                  <p>Built a Page Level Propensity to Purchase after Chat(P2PC) Model for 5 Pages for a client at [24]7.ai increasing the conversion rates by 8%.</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
+    </div>
+  </div>
+</section>
 
 
 
