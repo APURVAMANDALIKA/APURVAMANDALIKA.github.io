@@ -269,6 +269,14 @@ a:focus-visible, button:focus-visible {
 .project-thumb--boutique { background: linear-gradient(135deg, #6B4A9C, #3A2A5C); }
 .project-thumb--retail { background: linear-gradient(135deg, #1E4D8C, #142E52); }
 .project-thumb--forecast { background: linear-gradient(135deg, #8C5A1E, #52350F); }
+.project-thumb--img { background-size: cover; background-position: top center; }
+
+.project-note {
+  font-family: var(--font-mono);
+  font-size: .78rem;
+  color: var(--ink-soft);
+  margin-top: 14px;
+}
 
 .project-body { padding: 26px; }
 .project-tag {
