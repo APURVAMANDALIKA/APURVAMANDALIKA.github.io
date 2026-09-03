@@ -38,6 +38,14 @@ const galleries = {
       { src: 'assets/img/boutique-dashboard.png', caption: 'Discrepancy report after running exact + fuzzy SKU matching on sample data.' },
     ],
   },
+  widget: {
+    title: 'AnswerBar — FAQ Chat Widget',
+    images: [
+      { src: 'assets/img/answerbar-hero.png', caption: 'Standalone product landing page.' },
+      { src: 'assets/img/answerbar-modes.png', caption: 'Demo mode vs. live mode, explained.' },
+      { src: 'assets/img/answerbar-widget.png', caption: 'The widget itself, mid-conversation — answering questions about the product it demos.' },
+    ],
+  },
 };
 
 const lightbox = document.getElementById('lightbox');
