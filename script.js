@@ -46,6 +46,30 @@ const galleries = {
       { src: 'assets/img/answerbar-widget.png', caption: 'The widget itself, mid-conversation — answering questions about the product it demos.' },
     ],
   },
+  openslot: {
+    title: 'Open Slot',
+    images: [
+      { src: 'assets/img/openslot-user-page.png', caption: 'Landing page for the demo studio.' },
+      { src: 'assets/img/openslot-Booking-flow-1.png', caption: 'Choosing a service, day, and time — the day-ruler shows real open vs. booked time.' },
+      { src: 'assets/img/openslot-Booking-flow-2.png', caption: 'Selecting a time slot and confirming booking details.' },
+      { src: 'assets/img/openslot-admin-login.png', caption: 'Studio login — session-based admin authentication.' },
+      { src: 'assets/img/openslot-admin-dashboard.png', caption: 'Admin dashboard showing real bookings, filterable by status.' },
+    ],
+  },
+  bakery: {
+    title: 'Hearth & Crumb',
+    images: [
+      { src: 'assets/img/bakery-hero.png', caption: 'Hero section with the rising-steam signature motif.' },
+      { src: 'assets/img/bakery-today.png', caption: "Today's bake selection, with a distinct cream-and-burgundy palette." },
+    ],
+  },
+  architecture: {
+    title: 'Studio Halden',
+    images: [
+      { src: 'assets/img/architecture-hero.png', caption: 'Hero section with an architectural elevation line-drawing.' },
+      { src: 'assets/img/architecture-work.png', caption: 'Selected work, in an editorial left-aligned layout.' },
+    ],
+  },
 };
 
 const lightbox = document.getElementById('lightbox');
